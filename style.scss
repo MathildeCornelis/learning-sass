@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Raleway', sans-serif;
 }
 .contnair{
     width: 35vw;
@@ -15,6 +18,7 @@ body{
     border: solid #252525;
     .part_one{
         position: relative;
+        display: flex;
         .img_princ{
             transition: transform .2s ease;
         }
@@ -26,11 +30,14 @@ body{
             height: 7em;
         }
         .photos{
+            display: flex;
             position: absolute;
-            width: 30%;
-            left: 4%;
+            width: 15%;
             top: 415px;
-            height: 7em; 
+            background-color: red;
+            padding-left: 4%;
+            color: white;
+            font-weight: 600;
         }
     }
     .part_two{
