@@ -15,31 +15,33 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: solid #252525;
+    box-shadow: 0px 0px 7px 0px #000000;    
     overflow: hidden;
     &:hover{
+        box-shadow: 0px 0px 16px 2px #000000;
         .part_one{
-            transition: 0.25s ease;
+            transition: all 0.25s ease;
             height: 220px;
             width: 25vw;
             .img{
                 transform: scale(1.5);
-                transition: 0.25s ease;
+                transition: all 0.25s ease;
                 overflow: hidden;
+                filter:opacity(40%)            
             }
             .photos{
-                transition: 0.25s ease;
-                top: 230px;
+                transition: all 0.25s ease;
+                top: 229px;
             }
         }  
         .part_two{
+
             h1{
-                transition: 0.25s ease;
+                transition: all 0.25s ease;
                 margin-top: 15%;
             }
             .description{
-                transition: 0.25s ease;
-                transition: 1s ease;
+                transition: all 0.25s ease;
                 visibility: visible;
                 width: 30vh;
             }
@@ -56,11 +58,11 @@ body{
         .date{
             position: absolute;
             width: 65px;
-            left: 85%;
+            left: 80%;
             top: 30px;
             height: 65px;
             text-align: center;
-            background-color: #E64C42;
+            background-color: #E74C3C;
             color: white;
             border-radius: 50%;
             font-weight: 600;
@@ -70,7 +72,7 @@ body{
             position: absolute;
             width: 15%;
             top: 345px;
-            background-color: #E64C42;
+            background-color: #E74C3C;
             padding-left: 4%;
             padding-right: 4%;
             color: white;
@@ -86,7 +88,7 @@ body{
         }
         h2{
             margin-top: 7%;
-            color: #E64C42;
+            color: #E74C3C;
         }
         .description{
             visibility: hidden;
