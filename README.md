@@ -3,7 +3,7 @@
 In this repository, I experimented with the SASS language.
 This project consists in the realization of a map which is animated when you fly over it.
 
-![](capture_1.png) ![](capture_2.png)
+![](capture.png)
 
 ---
 
