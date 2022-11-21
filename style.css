@@ -9,17 +9,42 @@ body {
 }
 
 .contnair {
-  width: 30vw;
-  height: 70vh;
+  width: 25vw;
+  height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   border: solid #252525;
+  overflow: hidden;
+}
+.contnair:hover .part_one {
+  transition: 0.25s ease;
+  height: 220px;
+  width: 25vw;
+}
+.contnair:hover .part_one .img {
+  transform: scale(1.5);
+  transition: 0.25s ease;
+  overflow: hidden;
+}
+.contnair:hover .part_one .photos {
+  transition: 0.25s ease;
+  top: 230px;
+}
+.contnair:hover .part_two h1 {
+  transition: 0.25s ease;
+  margin-top: 15%;
+}
+.contnair:hover .part_two .description {
+  transition: 0.25s ease;
+  transition: 1s ease;
+  visibility: visible;
+  width: 30vh;
 }
 .contnair .part_one {
-  width: 30vw;
-  height: 40vh;
+  width: 25vw;
+  height: 390px;
   position: relative;
   display: flex;
 }
@@ -42,9 +67,10 @@ body {
   display: flex;
   position: absolute;
   width: 15%;
-  top: 385px;
+  top: 345px;
   background-color: #E64C42;
   padding-left: 4%;
+  padding-right: 4%;
   color: white;
   font-weight: 600;
 }
@@ -53,16 +79,17 @@ body {
   height: 80vh;
   text-align: left;
   padding-top: 5%;
-  margin-left: 20%;
+  margin-left: 40%;
 }
-.contnair .part_two h2 {
+.contnair h2 {
   margin-top: 7%;
   color: #E64C42;
 }
-.contnair .part_two .description {
-  display: none;
+.contnair .description {
+  visibility: hidden;
 }
-.contnair .part_three {
+
+.part_three {
   width: 30vw;
   height: 15px;
   display: flex;
@@ -70,13 +97,15 @@ body {
   flex-wrap: nowrap;
   padding-bottom: 20px;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 40%;
 }
-.contnair .logo_com {
+
+.logo_com {
   width: 15px;
   height: 15px;
 }
-.contnair .footer {
+
+.footer {
   margin-right: 30px;
   color: #A2A2A2;
 }/*# sourceMappingURL=style.css.map */
