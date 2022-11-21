@@ -7,92 +7,88 @@ body {
   justify-content: center;
   font-family: "Raleway", sans-serif;
 }
-
-.contnair {
+body .contnair {
   width: 25vw;
   height: 60vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 7px 0px #000000;
   overflow: hidden;
 }
-.contnair:hover {
+body .contnair:hover {
   box-shadow: 0px 0px 16px 2px #000000;
 }
-.contnair:hover .part_one {
+body .contnair:hover .part_one {
   transition: all 0.25s ease;
   height: 220px;
   width: 25vw;
 }
-.contnair:hover .part_one .img {
+body .contnair:hover .part_one .img {
   transform: scale(1.5);
   transition: all 0.25s ease;
   overflow: hidden;
   filter: opacity(40%);
 }
-.contnair:hover .part_one .photos {
+body .contnair:hover .part_one .photos {
   transition: all 0.25s ease;
   top: 229px;
 }
-.contnair:hover .part_two h1 {
+body .contnair:hover .part_two h1 {
   transition: all 0.25s ease;
   margin-top: 15%;
 }
-.contnair:hover .part_two .description {
+body .contnair:hover .part_two .description {
   transition: all 0.25s ease;
   visibility: visible;
   width: 30vh;
 }
-.contnair .part_one {
+body .contnair .part_one {
   width: 25vw;
   height: 390px;
   position: relative;
   display: flex;
 }
-.contnair .part_one .img {
+body .contnair .part_one .img {
   overflow: hidden;
 }
-.contnair .part_one .date {
+body .contnair .part_one .date {
   position: absolute;
+  background-color: #E74C3C;
+  color: #fff;
   width: 65px;
   left: 80%;
   top: 30px;
   height: 65px;
   text-align: center;
-  background-color: #E74C3C;
-  color: white;
   border-radius: 50%;
   font-weight: 600;
 }
-.contnair .part_one .photos {
-  display: flex;
+body .contnair .part_one .photos {
   position: absolute;
+  background-color: #E74C3C;
+  color: #fff;
   width: 15%;
   top: 345px;
-  background-color: #E74C3C;
   padding-left: 4%;
   padding-right: 4%;
-  color: white;
   font-weight: 600;
 }
-.contnair .part_two {
+body .contnair .part_two {
   width: 30vw;
   height: 80vh;
   text-align: left;
   padding-top: 5%;
   margin-left: 40%;
 }
-.contnair h2 {
+body .contnair h2 {
   margin-top: 7%;
   color: #E74C3C;
 }
-.contnair .description {
+body .contnair .description {
   visibility: hidden;
 }
-
-.part_three {
+body .part_three {
   width: 30vw;
   height: 15px;
   display: flex;
@@ -102,13 +98,11 @@ body {
   align-items: center;
   margin-left: 40%;
 }
-
-.logo_com {
+body .logo_com {
   width: 15px;
   height: 15px;
 }
-
-.footer {
+body .footer {
   margin-right: 30px;
   color: #A2A2A2;
 }/*# sourceMappingURL=style.css.map */
